@@ -1,0 +1,25 @@
+object HomeView: THomeView
+  Align = Client
+  Size.Width = 694.000000000000000000
+  Size.Height = 432.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 694.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Text1: TText
+      Align = Client
+      Size.Width = 694.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'HOME'
+    end
+  end
+  object Button1: TButton
+    Align = Center
+    TabOrder = 1
+    Text = 'Button1'
+  end
+end

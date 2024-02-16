@@ -1,0 +1,25 @@
+Implementar as seguintes funcionalidades:
+  - GoBack da navegação, para simular o botão de voltar dos navegadores
+  - Coleção de children para sub rotas
+
+     ex: /home/dashboard
+
+      TRoute.New
+        .Path('home')
+        .Outlet(LayoutHomeOutlet)
+        .Component(THomeView)
+        .Children([
+          TRoute.New
+            .Path('dashboard')
+            .Outlet(LayoutDashboardOutlet)
+            .Component(TDashboardView)
+        ])
+
+DICA:
+  Para implementar a coleção de children para sub rotas, será necessário realizar algumas mudanças, pense fora da caixinha!
+
+
+Referências para estudo:
+
+https://angular.io/api/router/Router
+https://angular.io/api/router/Route

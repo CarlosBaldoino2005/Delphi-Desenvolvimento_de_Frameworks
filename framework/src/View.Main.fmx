@@ -1,0 +1,45 @@
+object MainView: TMainView
+  Left = 0
+  Top = 0
+  ClientHeight = 729
+  ClientWidth = 881
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object LayoutMainOutlet: TLayout
+    Align = Client
+    Size.Width = 768.000000000000000000
+    Size.Height = 729.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Layout1: TLayout
+    Align = Left
+    Size.Width = 113.000000000000000000
+    Size.Height = 729.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button1: TButton
+      Align = Top
+      Size.Width = 113.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Home'
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Align = Top
+      Position.Y = 57.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Auth'
+      OnClick = Button2Click
+    end
+  end
+end

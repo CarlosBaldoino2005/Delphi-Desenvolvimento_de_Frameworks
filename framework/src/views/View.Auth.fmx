@@ -1,0 +1,13 @@
+object AuthView: TAuthView
+  Align = Client
+  Size.Width = 836.000000000000000000
+  Size.Height = 574.000000000000000000
+  Size.PlatformDefault = False
+  object Text1: TText
+    Align = Center
+    Size.Width = 361.000000000000000000
+    Size.Height = 193.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Auth'
+  end
+end
